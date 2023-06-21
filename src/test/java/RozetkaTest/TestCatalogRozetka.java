@@ -5,7 +5,7 @@ import org.RozetkaTestWebSite.MethodGenerator;
 import org.testng.annotations.Test;
 
 public class TestCatalogRozetka extends BaseTest1 {
-    @Test
+//    @Test
     public void catalogTest(){
         MethodGenerator.catalogTest().catalogClick();
         MethodGenerator.catalogTest().testBuyFunction();

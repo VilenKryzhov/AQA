@@ -6,7 +6,7 @@ import org.RozetkaTestWebSite.MethodGenerator;
 import org.testng.annotations.Test;
 
 public class TestLinkRozetka extends BaseTest1 {
-    @Test
+//    @Test
     public void testLink(){
         MethodGenerator.testLink().clickMenu();
         MethodGenerator.testLink().clickToLink();

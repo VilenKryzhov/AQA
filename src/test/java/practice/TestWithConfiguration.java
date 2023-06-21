@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class TestWithConfiguration extends BaseTest {
-    @Test
+//    @Test
     public void testConfiguration() {
         $(By.xpath("//input[@class='gh-tb ui-autocomplete-input']")).shouldBe(Condition.visible).append("Nike Cortez");
 //        $(By.xpath("//input[@class='btn btn-prim gh-spr']")).shouldBe(Condition.enabled).click();

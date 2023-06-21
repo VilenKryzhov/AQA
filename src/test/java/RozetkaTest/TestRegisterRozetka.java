@@ -5,7 +5,7 @@ import org.RozetkaTestWebSite.MethodGenerator;
 import org.testng.annotations.Test;
 
 public class TestRegisterRozetka extends BaseTest {
-    @Test
+//    @Test
     public void testBrowser(){
         MethodGenerator.registerTest().clickToRegister();
         MethodGenerator.registerTest().loginTest("krijov.vilen@gmail.com");

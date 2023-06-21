@@ -10,8 +10,8 @@
 
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenide>5.25.1</selenide>
         <testng>6.14.3</testng>
@@ -19,7 +19,7 @@
         <logback>1.2.3</logback>
         <allure.version>2.10.0</allure.version>
         <aspectj.version>1.9.6</aspectj.version>
-        <suiteXmlFile>src\main\resources\testSuites.xml</suiteXmlFile>
+<!--        <suiteXmlFile>src\main\resources\testSuites.xml</suiteXmlFile>-->
     </properties>
 
     <dependencies>
@@ -93,9 +93,9 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-                    </suiteXmlFiles>
+<!--                    <suiteXmlFiles>-->
+<!--                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
+<!--                    </suiteXmlFiles>-->
                 </configuration>
             </plugin>
             <plugin>

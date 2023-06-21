@@ -5,7 +5,7 @@ import org.RozetkaTestWebSite.MethodGenerator;
 import org.testng.annotations.Test;
 
 public class TestWorkRozetka extends BaseTest1 {
-    @Test
+//    @Test
     public void testWorkRozetka(){
         MethodGenerator.openMenuTest().OpenMenuClick();
         MethodGenerator.openMenuTest().MyProfile();

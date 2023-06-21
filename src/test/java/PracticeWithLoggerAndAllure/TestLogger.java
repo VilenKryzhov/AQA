@@ -17,7 +17,7 @@ public class TestLogger extends BaseTest {
         GeneretorMethods.logInTest().typeLoginInput("standard_user");
         GeneretorMethods.logInTest().typePasswordInput("secret_sauce");
         GeneretorMethods.logInTest().clickEnterButton();
-
+        System.out.println("asd");
         List<Item> items = GeneretorMethods.mainPage().getItems();
         System.out.println(items);
         List<String> itemsNameMainPageList = GeneretorMethods.mainPage().getElementsListName();
