@@ -4,7 +4,7 @@
     <test name="RegressionTests">
         <packages>
 <!--            <package name="PracticeWithLoggerAndAllure.*"/>-->
-            <package name="PracticeWithLoggerAndAllure.TestLogin"/>
+            <package name="TestLogin.*"/>
         </packages>
     </test>
 </suite>
