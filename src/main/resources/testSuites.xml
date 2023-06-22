@@ -4,7 +4,7 @@
     <test name="RegressionTests">
         <packages>
 <!--            <package name="PracticeWithLoggerAndAllure.*"/>-->
-            <package name="TestLogin.*"/>
+            <package name="YouTubeTest.*"/>
         </packages>
     </test>
 </suite>
