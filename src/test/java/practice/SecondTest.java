@@ -2,6 +2,7 @@
 //
 //import com.codeborne.selenide.Configuration;
 //import org.base.BaseTest;
+//import org.base.PageTools;
 //import org.openqa.selenium.By;
 //import org.testng.annotations.BeforeClass;
 //import org.testng.annotations.Test;
@@ -10,7 +11,7 @@
 //import java.io.FileNotFoundException;
 //
 //public class SecondTest extends BaseTest {
-//    public  PageTools  tools = new PageTools();
+////    public PageTools tools = new PageTools();
 //    @BeforeClass
 //    public void setUpBeforeDownload() {
 //        Configuration.reportsFolder = "downloands";// якщо це у нас a href
@@ -25,14 +26,14 @@
 //    public void test2() throws FileNotFoundException {
 //          tools.type("GTA", asd);
 //          tools.clickEnterButton();
-////        $(By.xpath("//input[@type = 'text']")).append("Socks");
-////        $(By.xpath("//input[@id = 'nav-search-submit-button']")).click();
-////        ElementsCollection $$ = $$(xpath("//div[@id='desktop-grid-2']//child::img"));
-//
-////        $(By.xpath("//a[@id='nav-hamburger-menu']")).click();
-////        $(By.xpath("//a[@class='hmenu-item' and @data-menu-id='3']")).click();
-////        $(By.xpath("//a[text()='Kindle']")).click();
-//
+//        $(By.xpath("//input[@type = 'text']")).append("Socks");
+//        $(By.xpath("//input[@id = 'nav-search-submit-button']")).click();
+//        ElementsCollection $$ = $$(xpath("//div[@id='desktop-grid-2']//child::img"));
+
+//        $(By.xpath("//a[@id='nav-hamburger-menu']")).click();
+//        $(By.xpath("//a[@class='hmenu-item' and @data-menu-id='3']")).click();
+//        $(By.xpath("//a[text()='Kindle']")).click();
+
 ////        ElementsCollection $$ = $$(By.xpath("//div[@class = 'navFooterLinkCol navAccessibility'][2]//a[@class='nav_a']"));
 //
 //
