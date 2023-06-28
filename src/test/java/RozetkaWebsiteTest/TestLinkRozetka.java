@@ -1,9 +1,8 @@
-package RozetkaTest;
+package RozetkaWebsiteTest;
 
 import com.codeborne.selenide.Selenide;
 import org.RozetkaTestWebSite.BaseTest1;
 import org.RozetkaTestWebSite.MethodGenerator;
-import org.testng.annotations.Test;
 
 public class TestLinkRozetka extends BaseTest1 {
 //    @Test

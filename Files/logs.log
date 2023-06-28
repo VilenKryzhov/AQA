@@ -1,79 +1,38 @@
-13:43:52.454 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
-13:43:52.553 | INFO | FileHelper:56                            | Creating folder: C:\javaID\javaModule\QA\build\downloads\1687430632521_11780_1
-13:43:53.762 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
-13:43:53.915 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\DASHA\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-13:43:58.278 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
-13:43:58.294 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
-13:43:58.594 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.134 Platform=WINDOWS
-13:43:58.595 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
-13:43:58.596 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-13:43:58.596 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (c8ee5a16c54b865866d3d159b647b536)
-13:43:58.600 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (c8ee5a16c54b865866d3d159b647b536), null
-13:44:02.327 | INFO | LogInTest:22                             | Click enter button ', element -> By.xpath: //input[@class='submit-button btn_action']
-13:44:02.620 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_name']
-13:44:02.933 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_desc']
-13:44:03.088 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_price']
-13:44:03.283 | INFO | MainPage:22                              | Get elements list name ', elements -> By.xpath: //div[@class='inventory_item_name']
-13:44:03.524 | INFO | MainPage:22                              | Element list ', elements -> By.xpath: //div[@class='inventory_item_name']
-13:44:03.697 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_name large_size']
-13:44:03.818 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_desc large_size']
-13:44:03.940 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_price']
-13:44:04.228 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:04.302 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:05.006 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:05.063 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:05.715 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:05.757 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:06.396 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:06.439 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:07.096 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:07.138 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:07.782 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:07.839 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:08.475 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-13:44:08.516 | INFO | MainPage:22                              | Click to basket ', element -> By.xpath: //a[@class='shopping_cart_link']
-13:44:08.693 | INFO | BasketPage:22                            | Get item name in basket page ', elements -> By.xpath: //div[@class='inventory_item_name']
-13:44:21.262 | INFO | MainPageYouTube:22                       | List element item ', elements -> By.xpath: //div[@class='style-scope ytd-channel-name']
-13:44:21.516 | INFO | MainPageYouTube:22                       | Click filter button and choose filter ', element -> By.xpath: (//div[@class='yt-spec-touch-feedback-shape__fill'])[11]
-13:44:25.417 | INFO | MainPageYouTube:22                       | Click filter button and choose filter ', element -> By.xpath: (//a[@id='endpoint' and @class='yt-simple-endpoint style-scope ytd-search-filter-renderer'])[1]
-13:44:25.908 | INFO | MainPageYouTube:22                       | Detail list element item ', elements -> By.xpath: //a[@id='video-title']
-13:44:32.157 | ERROR | Describe:156                             | Failed to check visibility
-java.lang.NullPointerException: null
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:329)
-	at com.codeborne.selenide.impl.Describe.isDisplayed(Describe.java:147)
-	at com.codeborne.selenide.impl.SelenideElementDescriber.fully(SelenideElementDescriber.java:27)
-	at com.codeborne.selenide.ElementsCollection.elementsToString(ElementsCollection.java:379)
-	at com.codeborne.selenide.ElementsCollection.toString(ElementsCollection.java:553)
-	at YouTubeTest.TestYouTube.test(TestYouTube.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-13:44:33.449 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (c8ee5a16c54b865866d3d159b647b536), null
-13:44:33.450 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> null, null
-13:44:34.108 | INFO | FileHelper:81                            | Deleted empty folder: C:\javaID\javaModule\QA\build\downloads\1687430632521_11780_1
-13:44:34.108 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 25 -> ChromeDriver: chrome on WINDOWS (c8ee5a16c54b865866d3d159b647b536), null
+10:52:25.472 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+10:52:25.509 | INFO | FileHelper:56                            | Creating folder: C:\javaID\javaModule\QA\build\downloads\1687938745500_9884_1
+10:52:26.078 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+10:52:26.150 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\DASHA\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+10:52:29.952 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
+10:52:29.953 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
+10:52:30.252 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.198 Platform=WINDOWS
+10:52:30.253 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
+10:52:30.254 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+10:52:30.254 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (805b9b24f6a2ddc486f294c1f864e718)
+10:52:30.257 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (805b9b24f6a2ddc486f294c1f864e718), null
+10:52:32.477 | INFO | LogInTest:22                             | Click enter button ', element -> By.xpath: //input[@class='submit-button btn_action']
+10:52:32.763 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_name']
+10:52:33.135 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_desc']
+10:52:33.307 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_price']
+10:52:33.463 | INFO | MainPage:22                              | Get elements list name ', elements -> By.xpath: //div[@class='inventory_item_name']
+10:52:33.597 | INFO | MainPage:22                              | Element list ', elements -> By.xpath: //div[@class='inventory_item_name']
+10:52:33.763 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_name large_size']
+10:52:33.867 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_desc large_size']
+10:52:33.969 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_price']
+10:52:34.224 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:34.323 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:35.010 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:35.051 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:35.665 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:35.708 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:36.319 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:36.358 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:36.975 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:37.016 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:37.632 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:37.671 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:38.286 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+10:52:38.330 | INFO | MainPage:22                              | Click to basket ', element -> By.xpath: //a[@class='shopping_cart_link']
+10:52:38.454 | INFO | BasketPage:22                            | Get item name in basket page ', elements -> By.xpath: //div[@class='inventory_item_name']
+10:52:38.689 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (805b9b24f6a2ddc486f294c1f864e718), null
+10:52:38.695 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 23 -> ChromeDriver: chrome on WINDOWS (805b9b24f6a2ddc486f294c1f864e718), null
+10:52:38.697 | INFO | FileHelper:81                            | Deleted empty folder: C:\javaID\javaModule\QA\build\downloads\1687938745500_9884_1

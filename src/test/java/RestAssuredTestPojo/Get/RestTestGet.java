@@ -1,15 +1,8 @@
 package RestAssuredTestPojo.Get;
 
-import RestAssuredTestPojo.Specifications;
-import org.ListUsers;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.*;
-
 import static io.restassured.RestAssured.given;
-import static java.util.Collections.*;
-import static jdk.nashorn.internal.objects.NativeArray.forEach;
 
 public class RestTestGet {
     public static String URL = "https://reqres.in/";

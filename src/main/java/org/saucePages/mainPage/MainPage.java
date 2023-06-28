@@ -1,10 +1,10 @@
-package org.pages.mainPage;
+package org.saucePages.mainPage;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.base.PageTools;
 import org.openqa.selenium.By;
-import org.item.Item;
+import org.sauceItems.Item;
 
 import java.util.ArrayList;
 import java.util.List;

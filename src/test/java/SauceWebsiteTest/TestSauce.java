@@ -1,9 +1,9 @@
-package PracticeWithLoggerAndAllure;
+package SauceWebsiteTest;
 
 import org.base.BaseTest;
 import org.openqa.selenium.By;
-import org.pages.GeneretorMethods;
-import org.item.Item;
+import org.saucePages.GeneretorMethods;
+import org.sauceItems.Item;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,7 +11,7 @@ import java.util.List;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class TestLogger extends BaseTest {
+public class TestSauce extends BaseTest {
     @Test
     public void test(){
         GeneretorMethods.logInTest().typeLoginInput("standard_user");

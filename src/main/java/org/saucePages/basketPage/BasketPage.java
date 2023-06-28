@@ -1,4 +1,4 @@
-package org.pages.basketPage;
+package org.saucePages.basketPage;
 
 import org.base.PageTools;
 import org.openqa.selenium.By;

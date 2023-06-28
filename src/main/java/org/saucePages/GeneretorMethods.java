@@ -1,9 +1,9 @@
-package org.pages;
+package org.saucePages;
 
-import org.pages.basketPage.BasketPage;
-import org.item.DetailsItem;
-import org.pages.loginPage.LogInTest;
-import org.pages.mainPage.MainPage;
+import org.saucePages.basketPage.BasketPage;
+import org.sauceItems.DetailsItem;
+import org.saucePages.loginPage.LogInTest;
+import org.saucePages.mainPage.MainPage;
 
 public class GeneretorMethods {
     private static LogInTest logInTest;

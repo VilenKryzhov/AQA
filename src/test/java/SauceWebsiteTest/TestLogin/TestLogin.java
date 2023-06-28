@@ -1,7 +1,7 @@
-package TestLogin;
+package SauceWebsiteTest.TestLogin;
 
 import org.base.BaseTest;
-import org.pages.GeneretorMethods;
+import org.saucePages.GeneretorMethods;
 import org.testng.annotations.Test;
 
 public class TestLogin extends BaseTest {

@@ -1,8 +1,7 @@
-package RozetkaTest;
+package RozetkaWebsiteTest;
 
 import org.base.BaseTest;
 import org.RozetkaTestWebSite.MethodGenerator;
-import org.testng.annotations.Test;
 
 public class TestRegisterRozetka extends BaseTest {
 //    @Test

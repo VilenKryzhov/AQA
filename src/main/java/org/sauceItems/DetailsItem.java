@@ -1,4 +1,4 @@
-package org.item;
+package org.sauceItems;
 
 import org.openqa.selenium.By;
 

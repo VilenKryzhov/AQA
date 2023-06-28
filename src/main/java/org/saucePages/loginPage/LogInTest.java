@@ -1,4 +1,4 @@
-package org.pages.loginPage;
+package org.saucePages.loginPage;
 
 import com.codeborne.selenide.Condition;
 import org.base.PageTools;
