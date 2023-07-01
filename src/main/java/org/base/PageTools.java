@@ -4,6 +4,7 @@ import com.codeborne.selenide.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
+import java.time.Duration;
 import java.util.List;
 
 import static com.codeborne.selenide.Selenide.$;
@@ -28,6 +29,13 @@ public class PageTools extends CustomLogger{
     protected SelenideElement shouldBe(Condition condition, By by , Object... args){
         return $(byLocator(by,args)).shouldBe(condition);
     }
+
+    protected SelenideElement should(Condition condition, By by , int sec, Object... args){
+        return $(byLocator(by,args)).should(condition, Duration.ofMillis(sec));
+    }
+    protected SelenideElement waitUntil(Condition condition, By by , int sec, Object... args){
+        return $(byLocator(by,args)).waitUntil(condition, sec);
+    }
     protected ElementsCollection shouldBe(CollectionCondition condition, By by , Object... args){
         return $$(byLocator(by,args)).shouldBe(condition);
     }
@@ -39,6 +47,11 @@ public class PageTools extends CustomLogger{
         logInfo(getPreviousMethodNameAsText() + " ', element -> " + byLocator(by,args));
         shouldBe(Condition.enabled, by, args).click();
     }
+    protected void append(By by, String text, Object... args){
+        logInfo(getPreviousMethodNameAsText() + " ', element -> " + byLocator(by,args));
+        shouldBe(Condition.visible, by, args ).append(text);
+    }
+
     protected void waitUntilElementVisibility(By by,  Integer time, Object... args){
         logInfo(getPreviousMethodNameAsText() + " ', should be visible in -> " + time + " seconds " + byLocator(by,args));
         $(byLocator(by,args)).waitUntil(Condition.visible, time);
@@ -63,6 +76,7 @@ public class PageTools extends CustomLogger{
         logInfo(getPreviousMethodNameAsText() + " ', element -> " + byLocator(by,args));
         return shouldBe(Condition.visible, by, args);
     }
+
     protected void clickEnterButton (){
         Selenide.actions().sendKeys(Keys.ENTER).perform();
     }

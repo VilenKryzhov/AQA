@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class MainPageYouTube extends PageTools {
 
     private final By elementsItemNameChannel = By.xpath("//div[@class='style-scope ytd-channel-name']");
-    private final By filterButton = By.xpath("(//div[@class='yt-spec-touch-feedback-shape__fill'])[11]");
+    private final By filterButton = By.xpath("//span[text()='Фильтры']");
     private final By filterButtonItemThisDay = By.xpath("(//a[@id='endpoint' and @class='yt-simple-endpoint style-scope ytd-search-filter-renderer'])[1]");
     private final By elementDetailItemName = By.xpath("//a[@id='video-title']");
 

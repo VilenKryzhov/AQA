@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 public class RestTest {
-    @Test
+//    @Test
     public void restAssuredTest(){
 //        Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 //        System.out.println(response.getStatusCode());

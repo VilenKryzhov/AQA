@@ -1,38 +1,56 @@
-10:52:25.472 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
-10:52:25.509 | INFO | FileHelper:56                            | Creating folder: C:\javaID\javaModule\QA\build\downloads\1687938745500_9884_1
-10:52:26.078 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
-10:52:26.150 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\DASHA\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-10:52:29.952 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
-10:52:29.953 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
-10:52:30.252 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.198 Platform=WINDOWS
-10:52:30.253 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
-10:52:30.254 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-10:52:30.254 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (805b9b24f6a2ddc486f294c1f864e718)
-10:52:30.257 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (805b9b24f6a2ddc486f294c1f864e718), null
-10:52:32.477 | INFO | LogInTest:22                             | Click enter button ', element -> By.xpath: //input[@class='submit-button btn_action']
-10:52:32.763 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_name']
-10:52:33.135 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_desc']
-10:52:33.307 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_price']
-10:52:33.463 | INFO | MainPage:22                              | Get elements list name ', elements -> By.xpath: //div[@class='inventory_item_name']
-10:52:33.597 | INFO | MainPage:22                              | Element list ', elements -> By.xpath: //div[@class='inventory_item_name']
-10:52:33.763 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_name large_size']
-10:52:33.867 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_desc large_size']
-10:52:33.969 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_price']
-10:52:34.224 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:34.323 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:35.010 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:35.051 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:35.665 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:35.708 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:36.319 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:36.358 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:36.975 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:37.016 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:37.632 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:37.671 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:38.286 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-10:52:38.330 | INFO | MainPage:22                              | Click to basket ', element -> By.xpath: //a[@class='shopping_cart_link']
-10:52:38.454 | INFO | BasketPage:22                            | Get item name in basket page ', elements -> By.xpath: //div[@class='inventory_item_name']
-10:52:38.689 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (805b9b24f6a2ddc486f294c1f864e718), null
-10:52:38.695 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 23 -> ChromeDriver: chrome on WINDOWS (805b9b24f6a2ddc486f294c1f864e718), null
-10:52:38.697 | INFO | FileHelper:81                            | Deleted empty folder: C:\javaID\javaModule\QA\build\downloads\1687938745500_9884_1
+13:13:00.561 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+13:13:00.638 | INFO | FileHelper:56                            | Creating folder: C:\javaID\javaModule\QA\build\downloads\1688206380605_19080_1
+13:13:01.660 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+13:13:01.722 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\DASHA\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+13:13:05.188 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
+13:13:05.189 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
+13:13:05.505 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.199 Platform=WINDOWS
+13:13:05.506 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
+13:13:05.506 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+13:13:05.507 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (3233bc9d9baaa58105e8bd5f8c702035)
+13:13:05.511 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (3233bc9d9baaa58105e8bd5f8c702035), null
+13:13:07.864 | INFO | ClassAtributePage:22                     | Click primary button test ', element -> By.xpath: //a[text()='Class Attribute']
+13:13:09.582 | INFO | ClassAtributePage:22                     | Click primary button test ', element -> By.xpath: (//button[contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')])[1]
+13:13:14.370 | INFO | LogInTest:22                             | Click enter button ', element -> By.xpath: //input[@class='submit-button btn_action']
+13:13:23.513 | INFO | MainPageYouTube:22                       | List element item ', elements -> By.xpath: //div[@class='style-scope ytd-channel-name']
+13:13:24.983 | INFO | DynamicID:22                             | Equals button id ', element -> By.xpath: //a[text()='Dynamic ID']
+13:13:25.555 | INFO | DynamicID:22                             | Equals button id ', element -> By.xpath: //button[@class='btn btn-primary']
+13:13:26.993 | INFO | DynamicID:22                             | Equals button id ', element -> By.xpath: //button[@class='btn btn-primary']
+13:13:28.215 | INFO | LogInTest:22                             | Click enter button ', element -> By.xpath: //input[@class='submit-button btn_action']
+13:13:28.418 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_name']
+13:13:28.556 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_desc']
+13:13:28.637 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_price']
+13:13:28.771 | INFO | MainPage:22                              | Get elements list name ', elements -> By.xpath: //div[@class='inventory_item_name']
+13:13:28.870 | INFO | MainPage:22                              | Element list ', elements -> By.xpath: //div[@class='inventory_item_name']
+13:13:29.021 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_name large_size']
+13:13:29.149 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_desc large_size']
+13:13:29.225 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_price']
+13:13:29.418 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:29.476 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:30.090 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:30.139 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:30.813 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:30.855 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:31.477 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:31.518 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:32.138 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:32.179 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:32.804 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:32.844 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:33.467 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
+13:13:33.508 | INFO | MainPage:22                              | Click to basket ', element -> By.xpath: //a[@class='shopping_cart_link']
+13:13:33.652 | INFO | BasketPage:22                            | Get item name in basket page ', elements -> By.xpath: //div[@class='inventory_item_name']
+13:13:34.436 | INFO | LoadDelay:22                             | Load delay click and review time wait ', element -> By.xpath: //a[text()='Load Delay']
+13:13:40.045 | INFO | LoadDelay:22                             | Load delay click and review time wait ', should be visible in -> 4000 seconds By.xpath: //button[@class='btn btn-primary']
+13:13:47.640 | INFO | TextInputPage:22                         | Click to text input page ', element -> By.xpath: //a[text()='Text Input']
+13:13:48.104 | INFO | TextInputPage:22                         | Get button text 1 ', element -> By.xpath: //button[@class='btn btn-primary']
+13:13:48.203 | INFO | TextInputPage:22                         | Append text to input ', element -> By.xpath: //input[@class='form-control']
+13:13:48.372 | INFO | TextInputPage:22                         | Click button ', element -> By.xpath: //button[@class='btn btn-primary']
+13:13:48.497 | INFO | TextInputPage:22                         | Get button text 2 ', element -> By.xpath: //button[@class='btn btn-primary']
+13:13:49.640 | INFO | ClientSiteDelay:22                       | Wait method analises ', element -> By.xpath: //a[text()='Client Side Delay']
+13:13:50.350 | INFO | ClientSiteDelay:22                       | Wait method analises ', element -> By.xpath: //p[@class='bg-success']
+13:14:06.454 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (3233bc9d9baaa58105e8bd5f8c702035), null
+13:14:06.455 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> null, null
+13:14:06.458 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> null, null
+13:14:06.715 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 25 -> ChromeDriver: chrome on WINDOWS (3233bc9d9baaa58105e8bd5f8c702035), null
+13:14:06.714 | INFO | FileHelper:81                            | Deleted empty folder: C:\javaID\javaModule\QA\build\downloads\1688206380605_19080_1
