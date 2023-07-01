@@ -10,5 +10,6 @@ public class ClassAttributeTest extends BaseTestUiPlayground {
     @Test
     public void test(){
         GeneratorMethodUIPlayground.classAtributeTest().clickPrimaryButtonTest(item, "Class Attribute");
+
     }
 }
