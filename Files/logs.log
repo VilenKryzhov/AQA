@@ -1,15 +1,18 @@
-16:39:13.594 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
-16:39:13.632 | INFO | FileHelper:56                            | Creating folder: C:\javaID\javaModule\QA\build\downloads\1688477953621_16532_1
-16:39:14.285 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
-16:39:14.343 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\DASHA\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-16:39:18.320 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
-16:39:18.321 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
-16:39:18.534 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.199 Platform=WINDOWS
-16:39:18.535 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
-16:39:18.535 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-16:39:18.537 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (80d72eb3e01d05fbadb40811c2b6bdd6)
-16:39:18.544 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (80d72eb3e01d05fbadb40811c2b6bdd6), null
-16:39:20.295 | INFO | OverlappedElement:22                     | Click to overlapper element page ', element -> By.xpath: //a[text()='Overlapped Element']
-16:39:24.341 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (80d72eb3e01d05fbadb40811c2b6bdd6), null
-16:39:24.354 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 23 -> ChromeDriver: chrome on WINDOWS (80d72eb3e01d05fbadb40811c2b6bdd6), null
-16:39:24.354 | INFO | FileHelper:81                            | Deleted empty folder: C:\javaID\javaModule\QA\build\downloads\1688477953621_16532_1
+15:56:58.412 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+15:56:58.467 | INFO | FileHelper:56                            | Creating folder: C:\javaID\javaModule\QA\build\downloads\1689080218457_13548_1
+15:56:59.022 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+15:56:59.066 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\DASHA\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+15:57:02.498 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
+15:57:02.499 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
+15:57:02.880 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.199 Platform=WINDOWS
+15:57:02.881 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
+15:57:02.881 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+15:57:02.882 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (22d79a97c1a6a6539a868efe672a6389)
+15:57:02.886 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (22d79a97c1a6a6539a868efe672a6389), null
+15:57:06.933 | INFO | clickToExercise:22                       | Click on exercise ', element -> By.xpath: (//div[@class='card mt-4 top-card'])[3]
+15:57:08.796 | INFO | clickToExercise:22                       | Click on exercise ', element -> By.xpath: (//li[@id='item-0'])[3]
+15:57:10.430 | INFO | BrowserWindow:22                         | Get element text from tab window ', element -> By.xpath: //h1[@id='sampleHeading']
+15:57:14.044 | INFO | BrowserWindow:22                         | Get element text from tab window ', element -> By.xpath: //h1[@id='sampleHeading']
+15:57:16.833 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (22d79a97c1a6a6539a868efe672a6389), null
+15:57:16.842 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 23 -> ChromeDriver: chrome on WINDOWS (22d79a97c1a6a6539a868efe672a6389), null
+15:57:16.844 | INFO | FileHelper:81                            | Deleted empty folder: C:\javaID\javaModule\QA\build\downloads\1689080218457_13548_1
