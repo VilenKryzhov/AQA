@@ -9,7 +9,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 public class BaseTestToolsQA {
-    @BeforeClass(alwaysRun = true, description = "create config for our test")// незалежно від того чи впав тест чи ні,  буде виконуватись анотація
+    @BeforeClass(alwaysRun = true, description = "create config for our test")
+// незалежно від того чи впав тест чи ні,  буде виконуватись анотація
     public void selenideConfig() {
         Configuration.holdBrowserOpen = true;
         Configuration.startMaximized = true;
@@ -31,8 +32,8 @@ public class BaseTestToolsQA {
     @AfterMethod(alwaysRun = true, description = "WebDriver clean up")
     public void cleanWebDriver() {
         Selenide.clearBrowserCookies();
-//            Selenide.refresh();
-//        Selenide.open("about:blank");
+        Selenide.refresh();
+        Selenide.open("about:blank");
     }
 
     @AfterSuite(alwaysRun = true, description = "Closing browser")

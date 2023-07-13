@@ -1,12 +1,15 @@
 package org.ToolsQAPage;
 
-public class GeneratorMethodsToolsQA {
-    private static clickToExercise uploadDownload;
-    private static BrowserWindow browserWindow;
+import org.checkerframework.checker.units.qual.C;
 
-    public static clickToExercise uploadDownload() {
+public class GeneratorMethodsToolsQA {
+    private static ClickToExercise uploadDownload;
+    private static BrowserWindow browserWindow;
+    private static ClickToExercise clickToExercise;
+
+    public static ClickToExercise uploadDownload() {
         if (uploadDownload == null) {
-            uploadDownload = new clickToExercise();
+            uploadDownload = new ClickToExercise();
         }
         return uploadDownload;
     }
@@ -14,5 +17,10 @@ public class GeneratorMethodsToolsQA {
         if (browserWindow == null){
             browserWindow = new BrowserWindow();
         } return browserWindow;
+    }
+    public static ClickToExercise clickToExercise(){
+        if (clickToExercise == null){
+            clickToExercise = new ClickToExercise();
+        } return clickToExercise;
     }
 }

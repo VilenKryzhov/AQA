@@ -28,7 +28,7 @@ public class DownloadUploadTest extends BaseTestToolsQA {
 
     @Test
    public void test() throws IOException {
-        GeneratorMethodsToolsQA.uploadDownload().clickOnExercise(byOne,byTwo);
+        GeneratorMethodsToolsQA.uploadDownload().clickOnExerciseFunc(byOne,byTwo);
         Selenide.sleep(1000);
         File file = $(By.xpath("//a[text()=\"Download\"]")).shouldBe(Condition.visible).download();
         Assert.assertTrue(file.exists());

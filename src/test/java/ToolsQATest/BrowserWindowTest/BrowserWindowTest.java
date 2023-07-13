@@ -1,4 +1,4 @@
-package ToolsQATest.DownloadUploadTest.BrowserWindowTest;
+package ToolsQATest.BrowserWindowTest;
 
 
 import com.codeborne.selenide.Selenide;
@@ -21,7 +21,7 @@ public class BrowserWindowTest extends BaseTestToolsQA {
 
     @Test
     public void test(){
-        GeneratorMethodsToolsQA.uploadDownload().clickOnExercise(byOne,byTwo);
+        GeneratorMethodsToolsQA.uploadDownload().clickOnExerciseFunc(byOne,byTwo);
         GeneratorMethodsToolsQA.browserWindow().clickToNewWindow(tabButton);
         Selenide.switchTo().window(1);
         String elementTextFromTabWindow = GeneratorMethodsToolsQA.browserWindow().getElementTextFromTabWindow(tabElementText);
