@@ -21,7 +21,7 @@ public class ProgressBar extends PageTools {
     public void clickToStart(By startButton) {
         click(startButton);
     }
-    public void сlickToStop(By by){
+    public void clickToStop(By by){
         shouldBe(Condition.visible, progressBar);
         click(by);
 

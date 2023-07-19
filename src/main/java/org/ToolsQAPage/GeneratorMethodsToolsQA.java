@@ -1,11 +1,12 @@
 package org.ToolsQAPage;
 
-import org.checkerframework.checker.units.qual.C;
 
 public class GeneratorMethodsToolsQA {
     private static ClickToExercise uploadDownload;
     private static BrowserWindow browserWindow;
     private static ClickToExercise clickToExercise;
+    private static Allert allert;
+    private static ModalDialogs modalDialogs;
 
     public static ClickToExercise uploadDownload() {
         if (uploadDownload == null) {
@@ -22,5 +23,15 @@ public class GeneratorMethodsToolsQA {
         if (clickToExercise == null){
             clickToExercise = new ClickToExercise();
         } return clickToExercise;
+    }
+    public static Allert allert(){
+        if( allert ==null){
+            allert = new Allert();
+        } return allert;
+    }
+    public static ModalDialogs modalDialogs(){
+        if (modalDialogs == null){
+            modalDialogs = new ModalDialogs();
+        } return modalDialogs;
     }
 }

@@ -1,7 +1,6 @@
 package org.ToolsQAPage;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.FileDownloadMode;
 import com.codeborne.selenide.Selenide;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -25,14 +24,14 @@ public class BaseTestToolsQA {
 
     @BeforeMethod(alwaysRun = true, description = "open basic URL")
     public void setUp() {
-        Selenide.open("https://demoqa.com/");
+        Selenide.open("https://demoqa.com/progress-bar");
     }
 
 
     @AfterMethod(alwaysRun = true, description = "WebDriver clean up")
     public void cleanWebDriver() {
         Selenide.clearBrowserCookies();
-        Selenide.refresh();
+//        Selenide.refresh();
         Selenide.open("about:blank");
     }
 

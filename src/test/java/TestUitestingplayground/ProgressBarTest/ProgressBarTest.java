@@ -1,6 +1,5 @@
 package TestUitestingplayground.ProgressBarTest;
 
-import com.codeborne.selenide.Condition;
 import org.UItestPlayground.BaseTestUiPlayground;
 import org.UItestPlayground.GeneratorMethodUIPlayground.GeneratorMethodUIPlayground;
 import org.openqa.selenium.By;
@@ -16,6 +15,7 @@ public class ProgressBarTest extends BaseTestUiPlayground {
     public void test(){
         GeneratorMethodUIPlayground.progressBar().clickToProgressBarPage(progressBarXpath, "Progress Bar");
         GeneratorMethodUIPlayground.progressBar().clickToStart(startButtonXpath);
-        GeneratorMethodUIPlayground.progressBar().сlickToStop(stopButtonXpath);
+        GeneratorMethodUIPlayground.progressBar().clickToStop(stopButtonXpath);
+
     }
 }

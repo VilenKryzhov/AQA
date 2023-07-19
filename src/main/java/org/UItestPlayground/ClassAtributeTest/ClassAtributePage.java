@@ -20,6 +20,7 @@ public class ClassAtributePage extends PageTools {
         $(By.xpath("(//button[contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')])[1]")).shouldBe(Condition.enabled);
         Selenide.refresh();
 
+
     }
 
 }
