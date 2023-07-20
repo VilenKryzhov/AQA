@@ -24,7 +24,7 @@ public class BaseTestToolsQA {
 
     @BeforeMethod(alwaysRun = true, description = "open basic URL")
     public void setUp() {
-        Selenide.open("https://demoqa.com/progress-bar");
+        Selenide.open("https://demoqa.com/");
     }
 
 

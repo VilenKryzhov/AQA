@@ -1,4 +1,4 @@
-package SweggerRestAssuredApiTest.GetPetByStatus;
+package SweggerRestAssuredApiTest;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;

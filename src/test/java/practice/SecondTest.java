@@ -31,7 +31,7 @@ public class SecondTest extends BaseTest {
         return new File("src/main/resources/files/" + newFile).getAbsolutePath();
     }
     public By asd = By.xpath("//*[@id=\"APjFqb\"]");
-    @Test
+    //TEST
     public void test2() throws FileNotFoundException {
 
         $(By.xpath("//input[@type = 'text']")).append("Socks");

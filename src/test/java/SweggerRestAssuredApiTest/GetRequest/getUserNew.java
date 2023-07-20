@@ -1,4 +1,4 @@
-package SweggerRestAssuredApiTest.GetPetByStatus.GetRequest;
+package SweggerRestAssuredApiTest.GetRequest;
 import org.SweggerApi.UserNew;
 import org.testng.annotations.Test;
 

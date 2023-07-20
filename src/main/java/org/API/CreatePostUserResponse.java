@@ -12,5 +12,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreatePostUserResponse extends CreatePostUserRequest {
-   public String updatedAt;
+   public String name;
+   public String leader;
+   public String id;
+   public String createdAt;
 }
