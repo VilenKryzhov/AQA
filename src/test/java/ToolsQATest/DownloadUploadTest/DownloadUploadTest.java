@@ -33,10 +33,11 @@ public class DownloadUploadTest extends BaseTestToolsQA {
         File file = $(By.xpath("//a[text()=\"Download\"]")).shouldBe(Condition.visible).download();
         Assert.assertTrue(file.exists());
         String absolutePath = file.getAbsolutePath();
+        System.out.println(absolutePath);
         Assert.assertFalse(absolutePath.isEmpty());
         Selenide.sleep(3000);
-        $(By.xpath("//input[@id='uploadFile']")).shouldBe(Condition.enabled).uploadFile(new File("C:\\javaID\\javaModule\\QA\\build\\downloads\\62801976-6018-4e8a-ab72-219e2b3023c9"));
-        FileUtils.deleteDirectory(new File("C:\\javaID\\javaModule\\QA\\build\\downloads"));
+        $(By.xpath("//input[@id='uploadFile']")).shouldBe(Condition.enabled).uploadFile(new File(absolutePath));
+//        FileUtils.deleteDirectory(new File("C:\\javaID\\javaModule\\QA\\build\\downloads"));
     }
 
 

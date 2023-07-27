@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class Slider extends BaseTestToolsQA {
+public class SliderTest extends BaseTestToolsQA {
     By byOne = By.xpath("(//div[@class='card mt-4 top-card'])[4]");
     By byTwo = By.xpath("(//li[@id='item-3'])[3]");
 

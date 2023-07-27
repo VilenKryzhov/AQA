@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.$;
 
 
-public class ToolTiosTest extends BaseTestToolsQA {
+public class ToolTipsTest extends BaseTestToolsQA {
     @Test
     public void test(){
 
@@ -21,6 +21,7 @@ public class ToolTiosTest extends BaseTestToolsQA {
         String attributeGreenBtn = $(By.xpath("//button[@id='toolTipButton']")).getAttribute("aria-describedby");
         System.out.println(attributeGreenBtn);
         Assert.assertEquals("buttonToolTip", attributeGreenBtn);
+        Selenide.sleep(1000);
 
         WebElement element2 = Selenide.webdriver().object().findElement(By.xpath("//input[@id='toolTipTextField']"));
         Selenide.actions().moveToElement(element2).perform();
