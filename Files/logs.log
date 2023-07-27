@@ -1,39 +1,14 @@
-17:12:19.403 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
-17:12:19.493 | INFO | FileHelper:56                            | Creating folder: C:\javaID\javaModule\QA\build\downloads\1689862339443_7624_1
-17:12:20.265 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
-17:12:20.313 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\DASHA\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-17:12:23.717 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
-17:12:23.723 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
-17:12:23.922 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.199 Platform=WINDOWS
-17:12:23.923 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
-17:12:23.923 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-17:12:23.924 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (5c9739049f596cdb2d10d1d028dd7946)
-17:12:23.933 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (5c9739049f596cdb2d10d1d028dd7946), null
-17:12:28.105 | INFO | LogInTest:22                             | Click enter button ', element -> By.xpath: //input[@class='submit-button btn_action']
-17:12:29.233 | INFO | LogInTest:22                             | Click enter button ', element -> By.xpath: //input[@class='submit-button btn_action']
-17:12:29.483 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_name']
-17:12:29.710 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_desc']
-17:12:29.884 | INFO | MainPage:22                              | Get items ', elements -> By.xpath: //div[@class='inventory_item_price']
-17:12:30.055 | INFO | MainPage:22                              | Get elements list name ', elements -> By.xpath: //div[@class='inventory_item_name']
-17:12:30.248 | INFO | MainPage:22                              | Element list ', elements -> By.xpath: //div[@class='inventory_item_name']
-17:12:30.420 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_name large_size']
-17:12:30.549 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_desc large_size']
-17:12:30.644 | INFO | DetailsItem:22                           | Get details item ', element -> By.xpath: //div[@class='inventory_details_price']
-17:12:30.881 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:30.947 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:31.601 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:31.643 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:32.251 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:32.292 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:32.929 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:32.970 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:33.593 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:33.633 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:34.258 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:34.299 | INFO | MainPage:22                              | Click main page item button ', element -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:34.921 | INFO | MainPage:22                              | Button list ', elements -> By.xpath: //button[@class='btn btn_primary btn_small btn_inventory']
-17:12:34.962 | INFO | MainPage:22                              | Click to basket ', element -> By.xpath: //a[@class='shopping_cart_link']
-17:12:35.096 | INFO | BasketPage:22                            | Get item name in basket page ', elements -> By.xpath: //div[@class='inventory_item_name']
-17:12:35.253 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (5c9739049f596cdb2d10d1d028dd7946), null
-17:12:35.568 | INFO | FileHelper:81                            | Deleted empty folder: C:\javaID\javaModule\QA\build\downloads\1689862339443_7624_1
-17:12:35.567 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 25 -> ChromeDriver: chrome on WINDOWS (5c9739049f596cdb2d10d1d028dd7946), null
+14:19:49.053 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+14:19:49.087 | INFO | FileHelper:56                            | Creating folder: C:\javaID\javaModule\QA\build\downloads\1690456789079_16172_1
+14:19:51.256 | INFO | WebDriverManager:966                     | Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+14:19:51.302 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\DASHA\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+14:19:55.719 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
+14:19:55.720 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
+14:19:55.881 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=114.0.5735.248 Platform=WINDOWS
+14:19:55.882 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
+14:19:55.883 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+14:19:55.883 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (5e5783bda84f6cadc6bd67a1542f16a8)
+14:19:55.887 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (5e5783bda84f6cadc6bd67a1542f16a8), null
+14:20:20.265 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (5e5783bda84f6cadc6bd67a1542f16a8), null
+14:20:20.273 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 24 -> ChromeDriver: chrome on WINDOWS (5e5783bda84f6cadc6bd67a1542f16a8), null
+14:20:20.275 | INFO | FileHelper:81                            | Deleted empty folder: C:\javaID\javaModule\QA\build\downloads\1690456789079_16172_1

@@ -19,7 +19,6 @@
         <logback>1.2.3</logback>
         <allure.version>2.10.0</allure.version>
         <aspectj.version>1.9.6</aspectj.version>
-        <suiteXmlFile>src\main\resources\testSuites.xml</suiteXmlFile>
     </properties>
 
     <dependencies>
@@ -96,7 +95,8 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/testSuitesAPI.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/testSuites.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

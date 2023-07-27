@@ -4,7 +4,6 @@
     <test name="RegressionTests">
         <packages>
             <package name="ToolsQATest.*"/>
-            <package name="RestAssuredTestPojo.*"/>
             <package name="SauceWebsiteTest.*"/>
             <package name="TestUitestingplayground.*"/>
         </packages>

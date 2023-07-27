@@ -18,6 +18,7 @@ public class BaseTestToolsQA {
         Configuration.screenshots = false;
         Configuration.pageLoadStrategy = "normal";
         Configuration.pageLoadTimeout = 15000;
+        Configuration.savePageSource = false;
         Configuration.timeout = 10000;
 //        Configuration.reportsFolder = "screenshots";
     }
