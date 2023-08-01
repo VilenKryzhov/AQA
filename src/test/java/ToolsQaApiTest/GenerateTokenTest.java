@@ -1,6 +1,7 @@
 package ToolsQaApiTest;
 
 import RestAssuredTestPojo.Specifications;
+import io.restassured.response.Response;
 import org.ToolQaApiTest.GenerateTokenPost.GeneretaTokenResponsePojo;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
@@ -15,14 +16,14 @@ public class GenerateTokenTest {
         jsonObject.put("userName", "TonyMontana");
         jsonObject.put("password", "Z160799z!");
 
-        GeneretaTokenResponsePojo responsePojo = given()
+        Response responsePojo = given()
                 .body(jsonObject)
                 .when()
                 .spec(Specifications.requestSpecification(url))
                 .post("Account/AccountV1GenerateTokenPost")
-                .then().log().body()
+                .then().log().all()
                 .spec(Specifications.responseSpecification(200))
-                .extract().as(GeneretaTokenResponsePojo.class);
+                .extract().response();
 
         System.out.println(responsePojo);
 

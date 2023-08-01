@@ -5,9 +5,10 @@ import org.API.RegisterRequest;
 import org.API.RegisterResponse;
 import org.testng.annotations.Test;
 
+
 import static io.restassured.RestAssured.given;
 
-public class RestTestRegister {
+public class RestTestRegister  {
     public static String URL = "https://reqres.in/";
     @Test
     public void test(){
